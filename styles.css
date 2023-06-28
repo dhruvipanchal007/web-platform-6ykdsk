@@ -6,6 +6,35 @@ body {
   margin: 0;
   font-family: system-ui, sans-serif;
   color: black;
-  background-color: white;
-}
+  background-image: url(https://images.pexels.com/photos/3503629/pexels-photo-3503629.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+  background-size: cover;
+  min-height: 100vh;
 
+
+}
+.glass-card{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.card{
+width: 280px;
+height: 400px;
+border-radius: 15px;
+margin: 30px;
+border-top: 1px solid rgba(255,255,255,0.5);
+border-left: 1px solid rgba(255,255,255,0.5);
+box-shadow: 20px 20px 50px rgba(0,0,0,0.5);
+backdrop-filter: blur(5px);
+}
+.card-title{
+  font-size: 2.5rem;
+  text-align: center;
+  color: #f5f5f5;
+  font-family: "Acme",sans-serif;
+}
+.card-para{
+  color: #ccc;
+  margin: 20px 10px;
+  font-family: "fira code",monospace;
+}
